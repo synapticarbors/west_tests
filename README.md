@@ -15,9 +15,7 @@ Currently using the nose framework to test the correctness of the estimator func
 When making modifications to the kinetics routines (either w_direct or w_reweight), re-run this analysis to ensure
 that everything works.
 
-When running, ensure that WEST_ROOT/{lib} is in your python path.
+Ensure that $WEST_ROOT is set properly, and then:
 
-    export PYTHON_PATH=$WEST_ROOT:$PYTHON_PATH
-    nosetests
+    ./test.sh
 
-Alternatively, source west and run nosetests.

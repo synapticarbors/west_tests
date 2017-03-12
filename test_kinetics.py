@@ -35,9 +35,6 @@ import work_managers
 import tempfile
 EPS = numpy.finfo(numpy.float64).eps
 
-#u_to_b = { 'direct': numpy.float64('3.001660233293609e-04'), 'reweight': numpy.float64('3.009828540338903e-04') }
-#b_to_u = { 'direct': numpy.float64('3.744796693524487e-05'), 'reweight': numpy.float64('3.760925972510064e-05') }
-
 import logging
 log = logging.getLogger(__name__)
 
