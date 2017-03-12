@@ -1,0 +1,4 @@
+---
+bins:
+    type: RectilinearBinMapper
+    boundaries: [[0.0,3,8.00,100000]]
